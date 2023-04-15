@@ -13,6 +13,8 @@ export class BookDto {
   description: string;
   @ApiProperty({ type: AuthorDto })
   author: AuthorDto;
+  @ApiProperty()
+  currentlyInStock: number;
 
   constructor(entity: Book) {
     this.id = entity.id;
@@ -20,5 +22,6 @@ export class BookDto {
     this.releaseDate = entity.releaseDate;
     this.description = entity.description;
     this.author = new AuthorDto(entity.author);
+    this.currentlyInStock = entity.currentlyInStock;
   }
 }

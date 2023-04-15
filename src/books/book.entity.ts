@@ -18,6 +18,9 @@ export class Book {
   @Column()
   description: string;
 
+  @Column()
+  currentlyInStock: number;
+
   @ManyToOne(() => Author, (author) => author.books, {
     onDelete: 'CASCADE',
     nullable: false

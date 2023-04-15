@@ -1,4 +1,4 @@
-Simple NodeJS backend. Uses NestJS and Typeorm. Has request validation and integration-tests.
+Simple NodeJS backend. Uses NestJS and Typeorm. Has request validation, integration-tests and OpenAPI support.
 
 ## Installation
 
