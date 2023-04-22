@@ -8,7 +8,7 @@ $ npm install
 
 ## Running the app
 
-````bash
+```bash
 # building
 $ npm run build
 
@@ -17,8 +17,6 @@ $ npm run start
 
 
 ## Test
-
-```bash
 # unit tests
 $ npm run test
-````
+```
